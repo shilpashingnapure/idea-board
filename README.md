@@ -25,8 +25,8 @@ To run this project, you will need **Docker** and **Docker Compose** installed o
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <your-project-directory>
+    git clone https://github.com/shilpashingnapure/idea-board.git
+    cd idea-board
     ```
 
 2.  **Create your environment file:**
@@ -34,7 +34,6 @@ To run this project, you will need **Docker** and **Docker Compose** installed o
     ```bash
     cp .env.example .env
     ```
-    *(Note: If `.env.example` does not exist, create a `.env` file in the root directory with the same variables as the `environment` section of the `db` and `backend` services in the `docker-compose.yml` file).*
 
 3.  **Run the application:**
     Use Docker Compose to build the images and start all the services with a single command.
