@@ -59,7 +59,7 @@ export default function LandingPage() {
 
             <div className="flex justify-center items-center">
               <Link href="/app">
-                <button className="text-white bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-8 py-3 rounded-lg inline-flex items-center gap-2">
+                <button className="text-white bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-8 py-3 rounded-lg inline-flex items-center gap-2 font-bold">
                   Start Sharing Ideas
                   <ArrowRight className="w-5 h-5" />
                 </button>
@@ -82,9 +82,6 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-
-        <div className="absolute top-0 right-0 -z-10 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
-        <div className="absolute bottom-0 left-0 -z-10 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
       </section>
 
       <FeatureSection />
